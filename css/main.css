@@ -41,3 +41,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+intro {
+        text-align: center; 
+        margin-bottom: 36px;
+        margin-top: 10px;
+        font-family: "Tahoma";
+}
