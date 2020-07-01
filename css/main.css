@@ -116,7 +116,7 @@ body {
 .introduction-section,
 .location-section,
 .questions-section {
-    max-width: 40em;
+    max-width: 42em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
@@ -188,7 +188,7 @@ h2 {
 .introduction-section,
 .location-section,
 .questions-section {
-    max-width: 40em;
+    max-width: 42em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
