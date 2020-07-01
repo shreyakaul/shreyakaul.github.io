@@ -1,0 +1,34 @@
+.masthead-heading1,
+.masthead-heading2,
+.masthead-heading3,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-color: #FF5733;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #9C341E;
+}
+
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading1 {
+    /* Layout Declarations */
+    color: #F1C863;
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
