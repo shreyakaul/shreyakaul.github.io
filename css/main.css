@@ -225,7 +225,7 @@ a {
   }
 }
 
-.mast-head,{
+.mast-head1,{
   text-align: center;
 }
 
@@ -248,3 +248,15 @@ a {
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
+.mast-head2 {
+    /* Layout Declarations */
+    color: #F1C863;
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
