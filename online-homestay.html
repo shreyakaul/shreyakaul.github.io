@@ -420,3 +420,19 @@ SET @StatusID =1
 SET @TypeID = 1
 
   EXEC make_bookings @PropertyID, @StartDate , @EndDate, @Cust_id, @StatusID, @TypeID</code>
+<h3>Creation of Views</h3>
+<code>CREATE VIEW propertyreview
+AS SELECT p.PropertyID, p.City, h.hostID, r.review 
+FROM dbo.host h, dbo.Property p, dbo.review r 
+WHERE h.hostID = p.hostID 
+AND r.propertyID = p.PropertyID;
+
+SELECT * FROM propertyreview;
+
+
+CREATE VIEW PropertyDetails AS
+SELECT p.PropertyID,p.PropertyType,p.AddressLine1,p.City,p.Price_per_day,am.no_of_bedrooms, am.no_of_bathrooms , av.Available_date, av.IsAvailable from dbo.property as p join dbo.amenities as am 
+on p.PropertyID = am.PropertyID join dbo.Availibility as av on av.PropertyID = p.PropertyID group by p.PropertyID,p.PropertyType,p.AddressLine1,p.City,p.Price_per_day,am.no_of_bedrooms, am.no_of_bathrooms , 
+av.Available_date, av.IsAvailable having av.IsAvailable = 1; 
+
+	SELECT * FROM PropertyDetails;</code>
