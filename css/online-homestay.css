@@ -4,7 +4,7 @@
 
 .mast {
   padding: 6em 0;
-  background-color: #FF5733;
+  background-color: #FFC3A5;
   background-size: cover;
   background-repeat: no-repeat;
   border-top: solid 1em #9C341E;
@@ -12,7 +12,7 @@
 
 .mast-head1 {
     /* Layout Declarations */
-    color: #F1C863;
+    color: #000000;
     margin-top: -0.2em;
     /* Typography Declarations */
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -21,17 +21,7 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
-.mast-head2 {
-    /* Layout Declarations */
-    color: #F1C863;
-    margin-top: -0.2em;
-    /* Typography Declarations */
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: bold;
-    font-size: 2em;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-}
+
 .erd-background {
   padding: 6em 0;
   background-color: #D9D7D6;
