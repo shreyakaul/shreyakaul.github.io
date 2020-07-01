@@ -56,7 +56,9 @@ body {
 }
 
 .content-footer,
-.masthead-heading,
+.masthead-heading1,
+.masthead-heading2,
+.masthead-heading3,
 .masthead-intro {
   text-align: center;
 }
@@ -77,7 +79,18 @@ body {
     font-size: 2em;
 }
 
-.masthead-heading {
+.masthead-heading1 {
+    /* Layout Declarations */
+    color: #F1C863;
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.masthead-heading2 {
     /* Layout Declarations */
     color: #F1C863;
     margin-top: -0.2em;
@@ -85,6 +98,17 @@ body {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 3em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.masthead-heading3 {
+    /* Layout Declarations */
+    color: #F1C863;
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
