@@ -3,12 +3,12 @@
   background-color: #FFC3A5;
   background-size: cover;
   background-repeat: no-repeat;
-  border-top: solid 1em #9C341E;
+  border-top: solid 1em #F1C863;
 }
 
 .mast-head1 {
     /* Layout Declarations */
-    color: #000000;
+    color: #F1C863;
     margin-top: -0.2em;
     /* Typography Declarations */
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -20,7 +20,7 @@
 }
 
 .erd-background {
-  background-color: #D9D7D6;
+  background-color: #BFCBFF;
   background-size: cover;
   background-repeat: no-repeat;
 }
