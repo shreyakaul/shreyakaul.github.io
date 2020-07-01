@@ -1,11 +1,8 @@
-.masthead-heading1,
-.masthead-heading2,
-.masthead-heading3,
-.masthead-intro {
+.mast-head,{
   text-align: center;
 }
 
-.masthead {
+.mast {
   padding: 6em 0;
   background-color: #FF5733;
   background-size: cover;
@@ -13,15 +10,7 @@
   border-top: solid 1em #9C341E;
 }
 
-.masthead-intro {
-    /* Layout Declarations */
-    margin-bottom: 0.1em;
-    /* Typography Declarations */
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 2em;
-}
-
-.masthead-heading1 {
+.mast-head1 {
     /* Layout Declarations */
     color: #F1C863;
     margin-top: -0.2em;
