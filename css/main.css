@@ -215,11 +215,11 @@ a {
 
 figure {
     display: inline-block;
-    border: 1px solid gray;
     margin: 20px; /* adjust as needed */
 }
 figure img {
     vertical-align: top;
+    border: 1px solid gray;
 }
 figure figcaption {
     text-align: center;
