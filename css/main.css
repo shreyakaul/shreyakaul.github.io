@@ -215,7 +215,7 @@ a {
 
 figure {
     display: inline-block;
-    border: 1px gray;
+    border: 1px solid gray;
     margin: 20px; /* adjust as needed */
 }
 figure img {
